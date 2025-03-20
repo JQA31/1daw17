@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>El Camino del Jesuita</title>
+		<meta name="autor" content="Joseph Joel Quispe Alvarez">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/VisitaCSS.css">
+	</head>
+	<body>
+		<div class="titulo">
+			Introducir Visitas
+		</div>
+		
+		<form method="get" action="php/GuardarVisita.php">
+				<br>
+				<div class="cuadro">
+				<label for="Jesuita">ID del Jesuita:</label>
+				<input type="text" name="Jesuita" required placeholder="ID">
+				</div>
+				<br><br>
+				<div class="cuadro">
+				<label for="Equipo">IP del Equipo:</label>
+				<input type="password" name="Equipo" maxlength="5" required placeholder="IP">
+				</div>
+				<br><br>
+				<center><input type="submit" value="Enviar"></center>
+		<form>
+	</body>
+</html>

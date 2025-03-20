@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Introducir Lugares</title>
+		<link rel="stylesheet" href="css/VisitaCSS.css">
+	</head>
+	<body>
+		<div class="titulo">
+			Introducir Lugares
+		</div>
+		</br></br>
+		<form method="POST" action="php/Lugares.php">
+			<!-- Lugares -->
+			<div class="cuadro">
+				<label>Nombre del Equipo:</label>
+				<!--Name es como el nombre de la variable-->
+				<input type="text" required name="nombre">
+			</div>
+			
+				<br><br>
+				
+			<div class="cuadro">
+				<label>IP: </label>
+				<input type="text" required name="ip" maxlength="15">
+			</div>
+			
+				<br/><br/>
+				
+			<div class="cuadro">
+				<label>Lugar: </label>
+				<input type="text" required name="lugar">
+			</div>
+			
+				<br/><br/>
+
+			<center><input type="submit"/></center>
+			<br>
+		</form>
+	
+	</body>
+</html>
