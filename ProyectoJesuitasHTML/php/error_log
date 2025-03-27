@@ -1,0 +1,12 @@
+[27-Mar-2025 07:28:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/user1daw/public_html/21/LM/Proyecto/php/Confirmacion.php on line 42
+[27-Mar-2025 07:28:39 UTC] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/user1daw/public_html/21/LM/Proyecto/php/Confirmacion.php on line 42
+[27-Mar-2025 07:28:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/user1daw/public_html/21/LM/Proyecto/php/Confirmacion.php on line 42
+[27-Mar-2025 07:28:47 UTC] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/user1daw/public_html/21/LM/Proyecto/php/Confirmacion.php on line 42
+[27-Mar-2025 08:48:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/user1daw/public_html/21/LM/Proyecto/php/GuardarVisita.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/21/LM/Proyecto/php/GuardarVisita.php on line 29
+[27-Mar-2025 08:56:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/user1daw/public_html/21/LM/Proyecto/php/GuardarVisita.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user1daw/public_html/21/LM/Proyecto/php/GuardarVisita.php on line 29
